@@ -1,13 +1,13 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gprimeltecan/gprimeltecan-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gprimeltezt/gprimeltezt-vendor.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gprimeltecan
+LOCAL_PATH := device/samsung/gprimeltezt
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltecan/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltezt/overlay
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/dt.img:dt.img
@@ -36,6 +36,6 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-G530W \
-	ro.product.device=gprimeltecan
+	ro.product.model=SM-G530MU \
+	ro.product.device=gprimeltezt
 

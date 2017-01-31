@@ -49,6 +49,6 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 	
-    property_set("ro.product.model", "SM-G530W");
-    property_set("ro.product.device", "gprimeltecan");
+    property_set("ro.product.model", "SM-G530MU");
+    property_set("ro.product.device", "gprimeltezt");
 }
