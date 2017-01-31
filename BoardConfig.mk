@@ -10,7 +10,7 @@ TARGET_OTA_ASSERT_DEVICE := gprimeltezt,fortunaltezt,fortunalteuh,gprimelteuh,sa
 TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimeltezt.cpp
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_can_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_chnzt_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    :=  1468006400
