@@ -12,6 +12,10 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltecan/overlay
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/dt.img:dt.img
 
+# Configuration
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/thermal-engine-8916.conf:system/etc/thermal-engine-8916.conf
+	
 # Audio configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
