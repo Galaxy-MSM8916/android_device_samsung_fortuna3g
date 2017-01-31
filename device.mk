@@ -34,6 +34,15 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/media/media_codecs.xml:system/etc/media_codecs.xml \
 	$(LOCAL_PATH)/media/media_profiles.xml:system/etc/media_profiles.xml
 
+#NFC
+PRODUCT_PACKAGES += \
+	Nfc
+
+# NFC prebuilt files
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+	$(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.product.model=SM-G530MU \
