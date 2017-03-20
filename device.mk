@@ -9,9 +9,6 @@ LOCAL_PATH := device/samsung/gprimeltezt
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltezt/overlay
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/dt.img:dt.img
-
 # Configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/thermal-engine-8916.conf:system/etc/thermal-engine-8916.conf
