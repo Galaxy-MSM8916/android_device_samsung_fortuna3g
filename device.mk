@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.vendor.extension_library=/vendor/lib/libqc-opt.so \
 	ro.product.model=SM-G530MU \
 	ro.product.device=gprimeltezt
 
