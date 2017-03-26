@@ -33,11 +33,12 @@ PRODUCT_COPY_FILES += \
 
 #NFC
 NXP_CHIP_TYPE := 1
-PRODUCT_PACKAGES += \
-	nfc_nci.pn54x.msm8916
+#PRODUCT_PACKAGES += \
+#	nfc_nci.pn54x.msm8916
 
 # NFC prebuilt files
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/nfc/route.xml:system/etc/param/route.xml \
 	$(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
 	$(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
