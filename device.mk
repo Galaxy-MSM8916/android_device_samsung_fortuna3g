@@ -12,7 +12,11 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltezt/overlay
 # Configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/thermal-engine-8916.conf:system/etc/thermal-engine-8916.conf
-	
+
+# Audio configuration
+PRODUCT_COPY_FILES += \
+       $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+
 # Media configurations
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/media/media_codecs_8929.xml:system/etc/media_codecs_8929.xml \
