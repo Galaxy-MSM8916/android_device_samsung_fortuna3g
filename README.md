@@ -1,6 +1,6 @@
-# android_device_samsung_gprimeltezt
+# android_device_samsung_fortunalte
 
-## Device tree for Samsung Galaxy Grand Prime G530MU [grimeltezt]
+## Unified device tree for Samsung Galaxy Grand Prime G530MU | G530FZ
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -8,7 +8,7 @@ CPU     | Qualcomm MSM8916 Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
 GPU     | Adreno 306
 Memory  | 1 GB
-Shipped Android Version | 4.4.4
+Shipped Android Version | 4.4.4 / 5.0.2
 Storage | 8 GB
 MicroSD | Up to 64 GB
 Battery | 2600 mAh (removable)
@@ -18,9 +18,3 @@ Rear Camera  | 8.0 MP, LED flash
 Front Camera | 5.0 MP
 
 Check the [`local_manifest`](./local_manifest) directory
-
-
-## Credits:
-- [x] Grand Prime SM-G530FZ (codename:fortuna) contributors (https://github.com/GrandPrime)
-- [x] Grand Prime SM-G530H (codename:fortuna3g) contributors (https://github.com/ZIM555)
-- [x] Viper4Android by `ViPER520` (http://vipersaudio.com/blog/)

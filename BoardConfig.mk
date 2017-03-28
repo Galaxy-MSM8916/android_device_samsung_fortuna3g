@@ -1,16 +1,18 @@
 # Inherit from common
 include device/samsung/gprimelte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gprimeltezt
+LOCAL_PATH := device/samsung/fortunalte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimeltezt,fortunaltezt,fortunalteuh,gprimelteuh,samsung_sm_g530mu,g530mu
+TARGET_OTA_ASSERT_DEVICE := gprimeltexx,gprimeltezt,fortunalte,fortunaltexx,fortunaltezt,fortunalteuh,gprimelteuh
 
 # Init
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimeltezt.cpp
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_fortunalte
+TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_fortunalte.cpp
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_chnzt_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_aio_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    :=  1468006400

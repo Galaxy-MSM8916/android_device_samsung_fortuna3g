@@ -1,22 +1,18 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gprimeltezt/gprimeltezt-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/fortunalte/fortunalte-vendor.mk)
 
 # Inherit from common
-BOARD_NFC_CHIPSET := pn547
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gprimeltezt
+LOCAL_PATH := device/samsung/fortunalte
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltezt/overlay
-
-# Configuration
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/thermal-engine-8916.conf:system/etc/thermal-engine-8916.conf
+DEVICE_PACKAGE_OVERLAYS += device/samsung/fortunalte/overlay
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
-       $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+	$(LOCAL_PATH)/audio/base/mixer_paths.xml:system/etc/mixer_paths.xml \
+	$(LOCAL_PATH)/audio/mu/mixer_paths.xml:system/blobs/mu/etc/mixer_paths.xml
 
 # Media configurations
 PRODUCT_COPY_FILES += \
@@ -30,8 +26,5 @@ NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
 	nfc_nci.pn54x.msm8916
 
-# Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-G530MU \
-	ro.product.device=gprimeltezt
-
+	ro.telephony.default_network=10
