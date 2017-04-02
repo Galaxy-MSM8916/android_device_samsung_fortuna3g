@@ -64,17 +64,19 @@ void init_target_properties(void)
 
 	if (strstr(bootloader,"G530FZ")) {
 		property_set("ro.build.product", "gprimeltexx");
-		property_set("ro.product.device", "gprimeltexx");
-		property_set("ro.product.model", "SM-G530FZ");
 		property_set("ro.build.description", "lineage_gprimeltexx-userdebug 6.0.1 MOB31K 4dae919457 test-keys");
 		property_set("ro.build.fingerprint", "samsung/lineage_gprimeltexx/gprimeltexx:6.0.1/MOB31K/4dae919457:userdebug/test-keys");
+		property_set("ro.product.device", "gprimeltexx");
+		property_set("ro.product.model", "SM-G530FZ");
+		property_set("ro.sf.lcd_density", "220");
 	}
 	else if (strstr(bootloader,"G530MU")) {
 		property_set("ro.build.product", "gprimeltezt");
-		property_set("ro.product.device", "gprimeltezt");
-		property_set("ro.product.model", "SM-G530MU");
 		property_set("ro.build.description", "lineage_gprimeltezt-userdebug 6.0.1 MOB31K 4dae919457 test-keys");
 		property_set("ro.build.fingerprint", "samsung/lineage_gprimeltezt/gprimeltezt:6.0.1/MOB31K/4dae919457:userdebug/test-keys");
+		property_set("ro.product.device", "gprimeltezt");
+		property_set("ro.product.model", "SM-G530MU");
+		property_set("ro.sf.lcd_density", "240");
 	}
 	property_get("ro.product.device", device);
 	INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, device);
