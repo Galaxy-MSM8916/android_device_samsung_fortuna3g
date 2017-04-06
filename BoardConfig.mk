@@ -8,8 +8,6 @@ TARGET_OTA_ASSERT_DEVICE := gprimeltexx,gprimeltezt,fortunalte,fortunaltexx,fort
 
 # Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_fortunalte
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_fortunalte.cpp
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_aio_defconfig
