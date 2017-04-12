@@ -4,7 +4,7 @@ include device/samsung/gprimelte-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/fortunalte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimeltexx,gprimeltezt,fortunalte,fortunaltexx,fortunaltezt,fortunalteuh,gprimelteuh
+TARGET_OTA_ASSERT_DEVICE := gprimeltezt,fortunalte,fortunaltezt,fortunalteuh,gprimelteuh
 
 # Init
 TARGET_UNIFIED_DEVICE := true
