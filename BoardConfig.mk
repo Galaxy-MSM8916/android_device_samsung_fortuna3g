@@ -10,7 +10,7 @@ TARGET_OTA_ASSERT_DEVICE := gprimeltezt,fortunalte,fortunaltezt,fortunalteuh,gpr
 TARGET_UNIFIED_DEVICE := true
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_aio_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    :=  1468006400
