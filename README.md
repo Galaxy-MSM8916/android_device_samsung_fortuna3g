@@ -1,4 +1,4 @@
-# android_device_samsung_fortunave3g
+# android_device_samsung_fortuna3g
 
 ## Device tree for Samsung Galaxy Grand Prime 3G
 
