@@ -67,10 +67,6 @@ vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmipl.so
-vendor/lib/libmmipstreamaal.so
-vendor/lib/libmmipstreamnetwork.so
-vendor/lib/libmmipstreamsourcehttp.so
-vendor/lib/libmmipstreamutils.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
@@ -96,12 +92,6 @@ lib/libril.so
 lib/librilutils.so
 lib/libsec-ril.so
 lib/libsec-ril-dsds.so
-
-# Other
-etc/firmware/Signedrompatch_v30.bin
-etc/firmware/Signedrompatch_v24.bin
-etc/firmware/Signedrompatch_v21.bin
-etc/firmware/Signedrompatch_v20.bin
 
 # Sensors
 etc/calib_SI_matrix_data_file.dat
