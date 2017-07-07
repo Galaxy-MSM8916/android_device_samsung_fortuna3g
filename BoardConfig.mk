@@ -4,7 +4,7 @@ include device/samsung/gprimelte-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/fortuna3g
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := fortuna3g,SM-G530H,samsung_sm_g530h,samsung_sm_g530h
+TARGET_OTA_ASSERT_DEVICE := fortuna3g,fortuna3gxx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna3g_eur_defconfig
