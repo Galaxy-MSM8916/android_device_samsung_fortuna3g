@@ -87,9 +87,6 @@ vendor/lib/libqmi.so
 vendor/lib/lib-sec-disp.so
 
 # RIL
-bin/rild
-lib/libril.so
-lib/librilutils.so
 lib/libsec-ril.so|dc359a4a1c39cd80b4b66fe8e0c91b79
 lib/libsec-ril-dsds.so|89bc1cbefeae3c1821cdacd56b989920
 
