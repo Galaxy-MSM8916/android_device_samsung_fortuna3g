@@ -92,5 +92,5 @@ lib/libsec-ril-dsds.so|89bc1cbefeae3c1821cdacd56b989920
 
 # Sensors
 etc/calib_SI_matrix_data_file.dat
-lib/hw/sensors.msm8916.so
+lib/hw/sensors.msm8916.so:lib/hw/sensors.vendor.msm8916.so
 lib/libk303c.so
