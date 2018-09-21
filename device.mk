@@ -11,3 +11,7 @@ LOCAL_PATH := device/samsung/fortuna3g
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/fortuna3g/overlay
+
+# RIL
+PRODUCT_PACKAGES += \
+	rild_dsds.rc
